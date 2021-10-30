@@ -159,10 +159,15 @@ public class Utente {
         //TODO: collegarsi al DB, caricare i dati e riempire un oggetto vuoto.
     }
 
-
+    //TODO: metodi get
+    //TODO: toString, equals, clone, hashcode
+    
     public String toString() {
         return "";
     }
 
+    public bool equals() {
+        return "";
+    }
     
 }
