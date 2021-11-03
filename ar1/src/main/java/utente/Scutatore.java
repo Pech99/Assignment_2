@@ -1,4 +1,4 @@
-package scrutatore;
+package utente;
 
 public class Scutatore {
 

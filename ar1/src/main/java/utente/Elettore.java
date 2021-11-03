@@ -1,4 +1,4 @@
-package elettore;
+package utente;
 
 public class Elettore {
 
