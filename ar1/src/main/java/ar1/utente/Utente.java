@@ -166,8 +166,8 @@ public class Utente {
         return "";
     }
 
-    public bool equals() {
-        return "";
+    public boolean equals() {
+        return true;
     }
     
 }
