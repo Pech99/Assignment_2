@@ -1,16 +1,6 @@
 package ar1.elettore;
 import java.util.*;
 
-/*
- * ho pensato all'oggetto utente come un oggetto statico.
- * per la realizzaione della classe mi sono basato su un
- * esempio che aveva fatto a lezione di Prog II Santini, 
- * vove costruiva un oggetto NutitionFact.
- * in questa cartella carico anche il codice di quella classe,
- * in modo tale che si possa confrontare. per evitare conflitti,
- * cambio l'estensione, quindi il nome del file sarà "NutritionFacts.txt"
- */
-
 /**
  * <p>
  *      questa classe implemente l'oggetto Elettore e tutti i suoi metodi.
