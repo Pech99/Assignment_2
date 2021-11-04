@@ -35,7 +35,7 @@ public class Elettore extends Utente {
 	}
 	
 	/**
-	 * restituise il nome dell'elettore sul quale è stato invocato.
+	 * restituise il nome dell'elettore sul quale `e stato invocato.
 	 * @return nome dell'elettore.
 	 */
 	public String getNome(){
@@ -43,7 +43,7 @@ public class Elettore extends Utente {
 	}
 
 	/**
-	 * restituise la data di nascita dell'elettore sul quale è stato invocato,
+	 * restituise la data di nascita dell'elettore sul quale `e stato invocato,
 	 * sottoforma di stringa, nel formato (gg/mm/aaaa).
 	 * @return data di nascita dell'elettore dell'elettore.
 	 */
