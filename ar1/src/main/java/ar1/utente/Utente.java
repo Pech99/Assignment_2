@@ -24,7 +24,7 @@ import java.util.*;
  *      <li>cognome: cognome dell'utente</li>
  *      <li>dataDiNascita: data di nascita dell'utente</li>
  *      <li>mail: mail dell'utente</li>
- *      <li>residenza: citt√† di residenza dell'utente</li>
+ *      <li>residenza: citt`as† di residenza dell'utente</li>
  *      <li>
  *          accessToken: tocken di accesso ai dati dell'utente. una volta confermata
  *          l'identit`a† dell'utente tramite username e password, il server genera un 
