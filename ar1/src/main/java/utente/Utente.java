@@ -31,7 +31,7 @@ public class Utente {
 	}
 	
 	/**
-	 * restituise l'username dell'utente sul quale è stato invocato.
+	 * restituise l'username dell'utente sul quale `e stato invocato.
 	 * @return username dell'utente.
 	 */
 	public String getUsername(){
@@ -39,7 +39,7 @@ public class Utente {
 	}
 
 	/**
-	 * restituise la password dell'utente sul quale è stato invocato.
+	 * restituise la password dell'utente sul quale `e stato invocato.
 	 * @return password dell'utente.
 	 */
 	public String getPassword(){

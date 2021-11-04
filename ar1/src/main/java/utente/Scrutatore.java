@@ -29,12 +29,17 @@ public class Scrutatore extends Utente {
 		super(username, password);
 		this.IDimpiegato = IDimpiegato;
 	}
-
+	
+	/**
+	 * restituise l'ID dell'impiegato sul quale `e stato invocato.
+	 * @return ID dell'impiegato.
+	 */
 	public String getIDimpiegato(){
 		return this.IDimpiegato;
 	}
-
+    
 	public String toString(){
 		return "{Scrutatore:[User:"+this.getUsername()+"], [ID:"+this.IDimpiegato+"]}";
 	}
+	
 }
