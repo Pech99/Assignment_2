@@ -14,11 +14,11 @@ import java.util.*;
 /**
  * <p>
  *      questa classe implemente l'oggetto utente e tutti i suoi metodi.
- *      questo oggetto è adibito a contenere i dati dell'utente.
+ *      questo oggetto `e adibito a contenere i dati dell'utente.
  * </p>
  * 
  * <p>
- *   l'oggetto è immutabile e contiene i seguenti campi:
+ *   l'oggetto `e immutabile e contiene i seguenti campi:
  *   <ul>
  *      <li>nome: nome dell'utente</li>
  *      <li>cognome: cognome dell'utente</li>
@@ -27,9 +27,9 @@ import java.util.*;
  *      <li>residenza: città di residenza dell'utente</li>
  *      <li>
  *          accessToken: tocken di accesso ai dati dell'utente. una volta confermata
- *          l'identità dell'utente tramite username e password, il server genera un 
- *          tocken di accesso, con il quale è possibile accedere ai dati dell'utente
- *          nella singola sessione. grazie al tocken è possibile votare e accedere ai
+ *          l'identit`a� dell'utente tramite username e password, il server genera un 
+ *          tocken di accesso, con il quale `e possibile accedere ai dati dell'utente
+ *          nella singola sessione. grazie al tocken `e possibile votare e accedere ai
  *          dati dell'account, semplicemente evita l'utilizzo ripetuto dell'username
  *          e password. aggiunge anche uno strato in più per garantire l'anomnimato
  *          dell'elettore.
@@ -38,10 +38,10 @@ import java.util.*;
  *          permessi: lista di permessi dell'utente. agli utenti con ruoli organizzativi
  *          ed amministrativi, sono asociati dei permessi (creare votazioi, aprire sessioni
  *          di voto, chiudere sessioni di voto, generare i risultati finali...). questi
- *          permessi sono memorizzati nel campo peressi. ogni permesso è identificato da
+ *          permessi sono memorizzati nel campo peressi. ogni permesso `e identificato da
  *          una chiave String e da un valore Object.
  *          vengono scaricati all'accesso all'applicazione solo per agioni di efficenza,
- *          perchè il DB dovrebbe efetuare un controllo sui permessi dell'utente prima
+ *          perche' il DB dovrebbe efetuare un controllo sui permessi dell'utente prima
  *          di procedere ad aplicare gli effetti della richiesta efetuata da esso.
  *      </li>
  *   </ul>
@@ -129,7 +129,7 @@ public class Utente {
         }
 
         /**
-         * chiude l'oggetto utente non permettendone più la mofica
+         * chiude l'oggetto utente non permettendone pi`u la mofica
          * @return utente.Utente
          */
         public Utente build() {
@@ -152,7 +152,7 @@ public class Utente {
      * crea un'oggetto utente contenete i dati dell'utente collegati agli username e password passati come parametri.
      * @param user username dell'account interessato.
      * @param pass password dell'account interessato.
-     * @throws userNotFoundException quando l'utente non è presente nel database o l'username e password non corrispondono.
+     * @throws userNotFoundException quando l'utente non `e presente nel database o l'username e password non corrispondono.
      */
     public Utente(String user, String pass) throws userNotFoundException{
         //TODO: implementare userNotFoundException.
