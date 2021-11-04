@@ -30,11 +30,11 @@ public class Scrutatore extends Utente {
 		this.IDimpiegato = IDimpiegato;
 	}
 
+	public String getIDimpiegato(){
+		return this.IDimpiegato;
+	}
 
 	public String toString(){
 		return "{Scrutatore:[User:"+this.getUsername()+"], [ID:"+this.IDimpiegato+"]}";
 	}
-
-
-
 }
