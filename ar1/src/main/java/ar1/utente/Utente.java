@@ -149,7 +149,7 @@ public class Utente {
     }
 
     /**
-     * crea un'oggetto utente contenete i dati dell'utente collegati agli username e password passati come parametri.
+     * crea un oggetto utente contenete i dati dell'utente collegati agli username e password passati come parametri.
      * @param user username dell'account interessato.
      * @param pass password dell'account interessato.
      * @throws userNotFoundException quando l'utente non `e presente nel database o l'username e password non corrispondono.
