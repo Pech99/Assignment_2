@@ -50,7 +50,12 @@ public class Elettore extends Utente {
 	public String getDataDiNascita(){
 		return this.dataDiNascita;
 	}
-
+	
+	/**
+	 * Restituisce una stringa di caratteri che descrive l'Elettore
+	 * rappresentato dall'oggetto che esegue il metodo.
+	 * @return la stringa che rappresenta l'Elettore.
+	 */
 	public String toString(){
 		return "{Elettore:[User:"+this.getUsername()+"], [Nome:"+this.nome+"], [Data di Nascita:"+this.dataDiNascita+"]}";
 	}

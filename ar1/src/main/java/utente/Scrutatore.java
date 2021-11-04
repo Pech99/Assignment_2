@@ -37,7 +37,12 @@ public class Scrutatore extends Utente {
 	public String getIDimpiegato(){
 		return this.IDimpiegato;
 	}
-    
+	
+	/**
+	 * Restituisce una stringa di caratteri che descrive lo Scrutatore
+	 * rappresentato dall'oggetto che esegue il metodo.
+	 * @return la stringa che rappresenta lo Scrutatore.
+	 */
 	public String toString(){
 		return "{Scrutatore:[User:"+this.getUsername()+"], [ID:"+this.IDimpiegato+"]}";
 	}
